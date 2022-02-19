@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./IMG/LOGO-4.png">
+    <link rel="stylesheet" type="text/css" href="estilo-tienda.css"/>
+    <link rel="stylesheet" type="text/css" href="lightslider.css"/>
+    <!--JQuery------------------>
+    <script src="JQuery.js"></script>
+    <script src="lightslider.js"></script>
+    <script src="https://kit.fontawesome.com/29e4e40fc3.js" crossorigin="anonymous"></script>
+    <title>Tienda</title>
+</head>
+
+    <body>
+
+        <nav>
+         <!--social-links-y-numero-telefono-->
+         <div class="social-call">
+             <!--social-links------>
+             <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/K_ProductsRD"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+             <!--phone-number-->
+             <div class="phone">
+                <span>Numero: +1(809)-853-8498</span>
+             </div>
+        </div>
+
+             <div class="navegation">
+                 <!--logo-->
+                 <a href="#" class="logo">
+                    <img src="./IMG/LOGO-4.png" alt="">
+                </a>
+                
+                <!--menu-icon---------------------->
+                <div class="toggle"></div>
+
+
+
+
+                 <!--menu-->
+                 <ul class="menu">
+                     <li><a href="/PROYECTO PAGINA EMPRESARIAL.html">Home</a></li>
+                     <li><a href="#">Albumes</a>
+                        <!--sale-lable-->
+
+                        <span class="sale-lable">Oferta</span>
+
+
+                    </li>
+                     <li><a href="#">Ultimos lanzamientos</a></li>
+                     <li><a href="#">Novedades</a></li>
+                     <li><a href="#">Bomns</a></li>
+                 </ul>
+                 <!--right-menu-->
+                 <div class="right-menu">
+                     <!--search-->
+                     <a href="javascript:void(0);" class="search">
+                         <i class="fas fa-search"></i>
+                     </a>
+
+                      <!--user-->
+                      <a href="javascript:void(0);" class="user">
+                        <i class="far fa-user"></i>
+                    </a>
+
+                     <!--cart icon-->
+                     <a href="#">
+                        <i class="fas fa-shopping-cart">
+                             <!--number-of-product-in-cart-->
+                        <span class="num-cart-product">0</span>
+                        </i>
+                       
+                    </a>
+                 </div>
+             </div>
+                
+             
+            </div>
+        </nav>
+        
+        <!--Search-bar------------------------->
+        <div class="search-bar">
+            <!--search-input------->
+            <div class="search-input">
+                <!--input---->
+                <input type="text" placeholder="Buscar producto"/>
+                <!--cancel-btn-->
+                <a href="javascript:void(0);" class="search-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+        </div>
+
+    <!--login-and-sign-up-form--------------------->
+        <div class="form">
+            <!--login----------->
+            <div class="login-form">
+                <!--cancel-btn------------------->
+                <a href="javascript:void(0);" class="form-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+                <!--heading-->
+                <strong>Iniciar sesión</strong>
+                <!--inputs-->
+                <form>
+                    <input type="email" placeholder="Correo" name="email" required>
+                    <input type="password" placeholder="Contraseña" name="password" required>
+                    <!--submit-btn-->
+                    <input type="submit" value="Iniciar sesión">
+                </form>
+                <div class="form-btns">
+                <!--forget-and-sign-up-btn------------->
+                <a href="#" class="forget">¿Olvidaste tu contraseña?</a>
+                <a href="javascript:void(0);" class="sign-up-btn">Registrate</a>
+                </div>
+
+            </div>
+
+
+        
+        <!--Sing up----------->
+        <div class="sign-up-form">
+            <!--cancel-btn------------------->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <!--heading-->
+            <strong>Registrate</strong>
+            <!--inputs-->
+            <form>
+                <input type="text" placeholder="Nombre" name="nombre" required>
+                <input type="email" placeholder="Correo" name="email" required>
+                <input type="password" placeholder="Contraseña" name="password" required>
+                <!--submit-btn-->
+                <input type="submit" value="Iniciar sesión">
+            </form>
+            <div class="form-btns">
+            <!--forget-and-sign-up-btn------------->
+            <a href="javascript:void(0);" class="already-acount">¿Ya tienes cuenta?</a>
+           
+            </div>
+
+        </div>
+        
+
+        </div>
+
+        <!--Full-Slider-------------------------------------->
+
+         <ul id="adaptive" class="cs-hidden">
+            <!--box-1-------------------->
+            <li class="item-a">
+                <!--box------------>
+                <div class="full-slider-box f-slide-1">
+                    <!--slider-text-container-------------->
+                    <div class="slider-text-container">
+        
+                    <div class="f-slider-text">
+                        <span>Oferta limitada</span>
+                        <strong>30% con</br> el <font>codigo de promo</font></strong>
+                        <a href="#" class="f-slider-btn">Compra ahora</a>
+                    </div>
+        
+                    </div>
+                </div>
+            </li>
+
+
+            <!--box-2-------------------->
+            <li class="item-a">
+                <!--box------------>
+                <div class="full-slider-box f-slide-2">
+                    <!--slider-text-container-------------->
+                    <div class="slider-text-container">
+        
+                    <div class="f-slider-text">
+                        <span>Oferta limitada</span>
+                        <strong>30% con</br> el <font>codigo de promo</font></strong>
+                        <a href="#" class="f-slider-btn">Compra ahora</a>
+                    </div>
+        
+                    </div>
+                </div>
+            </li>
+
+             <!--box-3-------------------->
+             <li class="item-a">
+                <!--box------------>
+                <div class="full-slider-box f-slide-3">
+                    <!--slider-text-container-------------->
+                    <div class="slider-text-container">
+        
+                    <div class="f-slider-text">
+                        <span>Oferta limitada</span>
+                        <strong>30% con</br> el <font>codigo de promo</font></strong>
+                        <a href="#" class="f-slider-btn">Compra ahora</a>
+                    </div>
+        
+                    </div>
+                </div>
+            </li>
+
+           
+          </ul>
+        
+
+<!--Featured-Categories-------------------------------->
+<div class="feature-heading">
+    <h2>Categorías destacadas</h2>
+</div>
+
+<ul id="autoWidth" class="cs-hidden">
+    <!--1----------------------->
+    <li class="item">
+        <!--feature-box----->
+<div class="feature-box">
+    <a href="#">
+        <img src="./IMG/feature1.png">
+    </a>
+</div>
+<!--text----------------------->
+    <span>BTS</span>
+    </li>
+
+     <!--2----------------------->
+     <li class="item">
+        <!--feature-box----->
+<div class="feature-box">
+    <a href="#">
+        <img src="./IMG/feature-2.jpg">
+    </a>
+</div>
+<!--text----------------------->
+    <span>Stray Kids</span>
+    </li>
+
+     <!--3----------------------->
+     <li class="item">
+        <!--feature-box----->
+<div class="feature-box">
+    <a href="#">
+        <img src="./IMG/feature-3.jpg">
+    </a>
+</div>
+<!--text----------------------->
+    <span>TXT</span>
+    </li>
+
+     <!--4----------------------->
+     <li class="item">
+        <!--feature-box----->
+<div class="feature-box">
+    <a href="#">
+        <img src="./IMG/feature-4.jpg">
+    </a>
+</div>
+<!--text----------------------->
+    <span>Itzy</span>
+    </li>
+
+     <!--5----------------------->
+     <li class="item">
+        <!--feature-box----->
+<div class="feature-box">
+    <a href="#">
+        <img src="./IMG/feature-5.jpg">
+    </a>
+</div>
+<!--text----------------------->
+    <span>IU</span>
+    </li>
+
+     <!--6----------------------->
+     <li class="item">
+        <!--feature-box----->
+<div class="feature-box">
+    <a href="#">
+        <img src="./IMG/feature-6.jpg">
+    </a>
+</div>
+<!--text----------------------->
+    <span>BlackPink</span>
+    </li>
+
+    
+    
+  </ul>
+
+
+  <!--new-arrival------------------------->
+  <section class="new-arrival">
+      <!--heading-------->
+      <div class="arrival-heading">
+          <strong>Nuevas llegadas</strong>
+          <p>Les proporcionamos albumes, ropa y accesorios de nuevo lanzamientos</p>
+      </div>
+      <!--product-container--------------->
+      <div class="product-container">
+
+          <!--product-box-1-->
+          <div class="product-box">
+              <!--img-->
+              <div class="product-img">
+                   <!--add-cart------------>
+              <a href="#" class="add-cart">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+
+                <img src="./IMG/p-1.jpg" />
+              </div>
+              <!--details-->
+              <div class="product-details">
+                    <a href="#" class="p-name">T-shirt BT21 TATA</a>
+                    <span class="p-price">$33.30</span>
+              </div>
+
+          </div>
+
+           <!--product-box-2-->
+           <div class="product-box">
+            <!--img-->
+            <div class="product-img">
+                 <!--add-cart------------>
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+          </a>
+
+              <img src="./IMG/p-2.jpg" />
+            </div>
+            <!--details-->
+            <div class="product-details">
+                  <a href="#" class="p-name">T-shirt BT21 Chimmy</a>
+                  <span class="p-price">$40.00</span>
+            </div>
+
+        </div>
+
+         <!--product-box-3-->
+         <div class="product-box">
+            <!--img-->
+            <div class="product-img">
+                 <!--add-cart------------>
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+          </a>
+
+              <img src="./IMG/p-3.jpg" />
+            </div>
+            <!--details-->
+            <div class="product-details">
+                  <a href="#" class="p-name">T-shirt BT21 Mang</a>
+                  <span class="p-price">$30.60</span>
+            </div>
+
+        </div>
+
+         <!--product-box-4-->
+         <div class="product-box">
+            <!--img-->
+            <div class="product-img">
+                 <!--add-cart------------>
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+          </a>
+
+              <img src="./IMG/p-4.jpg" />
+            </div>
+            <!--details-->
+            <div class="product-details">
+                  <a href="#" class="p-name">T-shirt BT21 Shooky</a>
+                  <span class="p-price">$35.00</span>
+            </div>
+
+        </div>
+
+         <!--product-box-5-->
+         <div class="product-box">
+            <!--img-->
+            <div class="product-img">
+                 <!--add-cart------------>
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+          </a>
+
+              <img src="./IMG/p-5.jpg" />
+            </div>
+            <!--details-->
+            <div class="product-details">
+                  <a href="#" class="p-name">T-shirt BT21 Van</a>
+                  <span class="p-price">$33.90</span>
+            </div>
+
+        </div>
+
+         <!--product-box-6-->
+         <div class="product-box">
+            <!--img-->
+            <div class="product-img">
+                 <!--add-cart------------>
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+          </a>
+
+              <img src="./IMG/p-6.jpg" />
+            </div>
+            <!--details-->
+            <div class="product-details">
+                  <a href="#" class="p-name">T-shirt BT21 Cooky</a>
+                  <span class="p-price">$39.99</span>
+            </div>
+
+        </div>
+
+         <!--product-box-7-->
+         <div class="product-box">
+            <!--img-->
+            <div class="product-img">
+                 <!--add-cart------------>
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+          </a>
+
+              <img src="./IMG/p-7.jpg" />
+            </div>
+            <!--details-->
+            <div class="product-details">
+                  <a href="#" class="p-name">T-shirt BT21 Koya</a>
+                  <span class="p-price">$40.44</span>
+            </div>
+
+        </div>
+
+         <!--product-box-8-->
+         <div class="product-box">
+            <!--img-->
+            <div class="product-img">
+                 <!--add-cart------------>
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+          </a>
+
+              <img src="./IMG/p-8.jpg" />
+            </div>
+            <!--details-->
+            <div class="product-details">
+                  <a href="#" class="p-name">T-shirt BT21 RJ</a>
+                  <span class="p-price">$30.00</span>
+            </div>
+
+        </div>
+
+
+      </div>
+
+
+  </section>
+
+    
+    <!--sale----------------------->
+    <section class="sale">
+        <!--sale-box-1------------------->
+        <div class="sale-box">
+            <!--img---------->
+            <img src="./IMG/sale-1.jpg">
+            <!--text---------->
+            <a href="#">
+                <div class="sale-text">
+                    <strong>Oferta con</strong>
+                    <span>un 25% de descuento</span>
+                </div>
+            </a>
+        </div>
+
+         <!--sale-box-2------------------->
+         <div class="sale-box">
+            <!--img---------->
+            <img src="./IMG/sale-2.jpg">
+            <!--text---------->
+            <a href="#">
+                <div class="sale-text">
+                    <strong>Oferta con</strong>
+                    <span>un 25% de descuento</span>
+                </div>
+            </a>
+        </div>
+
+         <!--sale-box-3------------------->
+         <div class="sale-box">
+            <!--img---------->
+            <img src="./IMG/sale-3.jpg">
+            <!--text---------->
+            <a href="#">
+                <div class="sale-text">
+                    <strong>Oferta con</strong>
+                    <span>un 25% de descuento</span>
+                </div>
+            </a>
+        </div>
+
+
+    </section>
+
+
+<!--new-arrival------------------------->
+<section class="new-arrival">
+    <!--heading-------->
+    <div class="arrival-heading">
+        <strong>Elementos destacados</strong>
+        <p>Les proporcionamos albumes, ropa y accesorios de nuevo lanzamientos</p>
+    </div>
+    <!--product-container--------------->
+    <div class="product-container">
+
+        <!--product-box-1-->
+        <div class="product-box">
+            <!--img-->
+            <div class="product-img">
+                 <!--add-cart------------>
+            <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+          </a>
+
+              <img src="./IMG/p-1.jpg" />
+            </div>
+            <!--details-->
+            <div class="product-details">
+                  <a href="#" class="p-name">T-shirt BT21 TATA</a>
+                  <span class="p-price">$33.30</span>
+            </div>
+
+        </div>
+
+         <!--product-box-2-->
+         <div class="product-box">
+          <!--img-->
+          <div class="product-img">
+               <!--add-cart------------>
+          <a href="#" class="add-cart">
+            <i class="fas fa-shopping-cart"></i>
+        </a>
+
+            <img src="./IMG/p-2.jpg" />
+          </div>
+          <!--details-->
+          <div class="product-details">
+                <a href="#" class="p-name">T-shirt BT21 Chimmy</a>
+                <span class="p-price">$40.00</span>
+          </div>
+
+      </div>
+
+       <!--product-box-3-->
+       <div class="product-box">
+          <!--img-->
+          <div class="product-img">
+               <!--add-cart------------>
+          <a href="#" class="add-cart">
+            <i class="fas fa-shopping-cart"></i>
+        </a>
+
+            <img src="./IMG/p-3.jpg" />
+          </div>
+          <!--details-->
+          <div class="product-details">
+                <a href="#" class="p-name">T-shirt BT21 Mang</a>
+                <span class="p-price">$30.60</span>
+          </div>
+
+      </div>
+
+       <!--product-box-4-->
+       <div class="product-box">
+          <!--img-->
+          <div class="product-img">
+               <!--add-cart------------>
+          <a href="#" class="add-cart">
+            <i class="fas fa-shopping-cart"></i>
+        </a>
+
+            <img src="./IMG/p-4.jpg" />
+          </div>
+          <!--details-->
+          <div class="product-details">
+                <a href="#" class="p-name">T-shirt BT21 Shooky</a>
+                <span class="p-price">$35.00</span>
+          </div>
+
+      </div>
+    </div>
+</section>
+
+
+<!--banner------------------------------>
+        
+
+ <!--box------------>
+ <div class="banner-box f-slide-3">
+    <!--slider-text-container-------------->
+    <div class="banner-text-container">
+
+    <div class="banner-text">
+        <span>Oferta limitada</span>
+        <strong>30% con</br> el <font>codigo de promo</font></strong>
+        <a href="#" class="banner-btn">Compra ahora</a>
+    </div>
+
+    </div>
+</div>
+
+
+<!--services------------------------------------>
+    <section class="services">
+        <!--services-box-1------------------>
+        <div class="services-box">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Envío gratis</span>
+            <p>Envío gratis para todos los pedidos de Rep. Dom.</p>
+        </div>
+
+         <!--services-box-2------------------>
+         <div class="services-box">
+            <i class="fas fa-headphones-alt"></i>
+            <span>Atención 24/7</span>
+            <p>Atención al cliente las 24hrs del día.</p>
+        </div>
+
+         <!--services-box-3------------------>
+         <div class="services-box">
+            <i class="fas fa-sync"></i>
+            <span>100% de devolución</span>
+            <p>Tiene 30 dias para pedir devolución.</p>
+        </div>
+
+    </section>
+
+
+    <!--footer-------------------->
+        <footer>
+            <!--copyright------------>
+            <span class="copyright">
+                Copyright 2021 - K-Products
+            </span>
+            <!--subscribe---->
+            <div class="subscribe">
+                <form>
+                    <input type="email" placeholder="Correo" required>
+                    <input type="submit" value="Suscribirse">
+                </form>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        <!--script---------------------->
+        <script type="text/javascript">
+        
+        /*---Para barra de busqueda--------------*/
+         $(document).on('click','.search',function(){
+             $('.search-bar').addClass('search-bar-active')
+         });
+
+         $(document).on('click','.search-cancel',function(){
+             $('.search-bar').removeClass('search-bar-active')
+         });
+
+         /*--login-sign-up-form-----------------------------*/
+         $(document).on('click','.user,.already-acount',function(){
+             $('.form').addClass('login-active').removeClass('sign-up-active')
+         });
+
+
+         $(document).on('click','.sign-up-btn',function(){
+             $('.form').addClass('sign-up-active').removeClass('login-active')
+         });
+
+         $(document).on('click','.form-cancel',function(){
+             $('.form').removeClass('login-active').removeClass('sign-up-active')
+         });
+
+
+         /*--full-slider-script---------------------------*/
+         $(document).ready(function() {
+    $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        auto:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+});
+
+
+        /*Feature-slider*/
+        $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+
+
+    /*----for-fix-menu-when-scroll---------------------------*/
+
+    $(window).scroll(function(){
+        if($(document).scrollTop() > 50){
+            $('.navegation').addClass('fix-nav');
+        }
+        else{
+            $('.navegation').removeClass('fix-nav');
+        }
+    });
+
+    /*----for-responsive-menu-------------------------*/
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('.navegation').toggleClass('active')
+        })
+    })
+
+
+        </script>
+
+    </body>
+</html>
